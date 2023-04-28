@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;800&family=Roboto:wght@400;700&display=swap');
+*{
+  font-family: Roboto;
+}
+
+.grid-container {
+  margin-top: 190px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 20px; /* adjust the gap as desired */
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: #40C8F4;
+  border-radius: 5px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.5s, transform 0.5s;
+  font-size: 32px;
+  width: 350px;
+  margin: 0 auto; /* center the cards horizontally */
+}
+
+.card:hover {
+  background: #0072BC;
+  transform: translateY(-10px)
+}
