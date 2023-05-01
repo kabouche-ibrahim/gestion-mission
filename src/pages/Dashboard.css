@@ -3,12 +3,33 @@
   font-family: Roboto;
 }
 
-.grid-container {
-  margin-top: 190px;
+h1 {
+  color: #2594f0;
+  margin-top: 70px;
+  padding-bottom: 0px;
+}
+
+hr {
+  border: none;
+  border-radius: 10px;
+  height: 5px;
+  background: linear-gradient(to left, rgb(92, 160, 215), rgb(28, 7, 164));
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.grid-container-1 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
-  gap: 20px; /* adjust the gap as desired */
+  gap: 20px;
+}
+
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 20px;
 }
 
 .card {
@@ -24,10 +45,11 @@
   transition: background 0.5s, transform 0.5s;
   font-size: 32px;
   width: 350px;
-  margin: 0 auto; /* center the cards horizontally */
+  margin: 0 auto;
 }
 
 .card:hover {
   background: #0072BC;
   transform: translateY(-10px)
 }
+

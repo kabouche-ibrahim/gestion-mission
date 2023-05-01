@@ -13,6 +13,7 @@ const Demandes = ({ filter }) => {
                         <th className="table-header">Assigné</th>
                         <th className="table-header">état</th>
                         <th className="table-header">Date</th>
+                        <th className="table-header"></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -22,6 +23,7 @@ const Demandes = ({ filter }) => {
                         <td className="table-cell">Assigné 1</td>
                         <td className="table-cell">état 1</td>
                         <td className="table-cell">2023-04-24</td>
+                        <td className="table-cell"><button className="btn">Voir demande</button></td>
                     </tr>
                     <tr>
                         <td className="table-cell">2</td>
@@ -29,6 +31,7 @@ const Demandes = ({ filter }) => {
                         <td className="table-cell">Assigné 2</td>
                         <td className="table-cell">état 2</td>
                         <td className="table-cell">2023-04-25</td>
+                        <td className="table-cell"><button className="btn">Voir demande</button></td>
                     </tr>
                 </tbody>
             </table>
@@ -42,6 +45,7 @@ const Demandes = ({ filter }) => {
                         <th className="table-header">Assigné</th>
                         <th className="table-header">état</th>
                         <th className="table-header">Date</th>
+                        <th className="table-header"></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -51,6 +55,7 @@ const Demandes = ({ filter }) => {
                         <td className="table-cell">Assigné 3</td>
                         <td className="table-cell">état 3</td>
                         <td className="table-cell">2023-04-24</td>
+                        <td className="table-cell"><button className="btn">Voir demande</button></td>
                     </tr>
                     <tr>
                         <td className="table-cell">4</td>
@@ -58,6 +63,7 @@ const Demandes = ({ filter }) => {
                         <td className="table-cell">Assigné 4</td>
                         <td className="table-cell">état 4</td>
                         <td className="table-cell">2023-04-25</td>
+                        <td className="table-cell"><button className="btn">Voir demande</button></td>
                     </tr>
                 </tbody>
             </table>

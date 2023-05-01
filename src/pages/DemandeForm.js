@@ -20,7 +20,10 @@ const DemandeForm = () => {
           </select>
 
           <label>Motif de déplacement:</label>
-          <textarea className="input-motif" rows="2"></textarea>
+          <textarea className="input-motif" rows="  
+          
+          
+          2"></textarea>
 
           <label>Moyen de transport:</label>
           <select className="input">

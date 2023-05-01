@@ -18,11 +18,11 @@ const Sidebar = ({children}) => {
             name:"dashboard",
             icon:<FaTh/>
         },
-        {
-            path:"/Demandes",
-            name:"demandes",
-            icon:<AiFillFolderOpen/>
-        },
+        //{
+           // path:"/Demandes",
+            //name:"demandes",
+            //icon:<AiFillFolderOpen/>
+        //},
         {
             path:"/Stats",
             name:"stats",
@@ -50,10 +50,10 @@ const Sidebar = ({children}) => {
                        </NavLink>
                    ))
                }
-               <div className="link" onClick={handleLogout}>
-                   <div className="icon"><FaSignOutAlt/></div>
-                   <div style={{display:  "block"  }} className="link_text">logout</div>
-               </div>
+               <div className="link logout" onClick={handleLogout}>
+                <div className="icon"><FaSignOutAlt/></div>
+                <div style={{display: "block"}} className="link_text">logout</div>
+                </div>
            </div>
            <main>{children}</main>
         </div>
