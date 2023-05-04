@@ -18,12 +18,12 @@ const Navbar = () => {
             </li>
           </ul>
         </li>
-        <li className="nav-item-new créer-demande">
+        {/*<li className="nav-item-new créer-demande">
           <NavLink to="/ModifierDemande" className="nav-link-new1 nav-link créer-demande">Modifier</NavLink>
         </li>
         <li className="nav-item-new créer-demande">
           <NavLink to="/AnnulerDemande" className="nav-link-new2 nav-link créer-demande">Action</NavLink>
-        </li>
+        </li>*/}
       </ul>
     </nav>
   );

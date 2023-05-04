@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;800&family=Roboto:wght@400;700&display=swap');
+*{
+    font-family: Roboto;
+  }
+  
+  h3 {
+    font-size: 30px;
+    color:blue  ; 
+  }
+  
+  .details-container {
+    display: flex;
+    flex-direction: column; 
+    margin-top: 35px;
+  }
+  
+  .missionaire-info {
+    flex-basis: 30%;
+    margin-top: 50px;
+    width: 100%;
+    background-color: #f2f2f1;
+    box-shadow: 2px 2px 5px #888;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    padding: 20px;
+    height: 210px;
+  }
+  
+  .demande-info {
+    flex-basis: 70%;
+    margin-top: 30px;
+    width: 100%;
+    background-color: #f2f2f1;
+    box-shadow: 2px 2px 5px #888;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 20px;
+  }
+  
+  .demande-info strong,
+  .missionaire-info strong {
+    font-size: 24px;
+    color: blue;
+  }
+  
+  .demande-info p,
+  .missionaire-info p {
+    font-size: 21px;
+    font-weight: bold;
+  }
+
+  .back-button {
+    padding: 5px 50px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2916d8;
+    transition: background 0.5s, transform 0.5s;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    float: right;
+    width: 150px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+  }
+    
+    
+  .back-button:hover {
+      background-color: #5ca1ea;
+      transform: translateY(-10px);
+    }
+  
+  
+    
+   

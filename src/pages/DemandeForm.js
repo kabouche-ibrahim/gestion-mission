@@ -1,15 +1,10 @@
 import React, { useState } from "react";
-import "./DemandeForm.css";
+import './DemandeForm.css';
 
 const DemandeForm = () => {
-  const [enregistrerClicked, setEnregistrerClicked] = useState(false);
-
-  const handleEnregistrerClick = () => {
-    setEnregistrerClicked(true);
-  };
-
-  return (
+return (
     <div>
+      
       <div className={"form-container active"}>
         <form className="demande-form">
           <label>Type de mission:</label>
@@ -20,10 +15,7 @@ const DemandeForm = () => {
           </select>
 
           <label>Motif de déplacement:</label>
-          <textarea className="input-motif" rows="  
-          
-          
-          2"></textarea>
+          <textarea className="input-motif" rows="2"></textarea>
 
           <label>Moyen de transport:</label>
           <select className="input">
@@ -46,16 +38,24 @@ const DemandeForm = () => {
           <input type="datetime-local" className="input" />
 
           <div className="button-container">
-            {enregistrerClicked && (
-              <button className="button-s" type="submit">Envoyer</button>
-            )}
-            <button className="button-a" type="button">Annuler</button>
-            <button className="button-e" type="button" onClick={handleEnregistrerClick}>Enregistrer</button>
+            <button className="button-s" type="submit">
+              Envoyer
+            </button>
+            <button className="button-a" type="button">
+              Annuler
+            </button>
+            <button className="button-e" type="button">
+              Enregistrer
+            </button>
           </div>
         </form>
       </div>
     </div>
-  );
+    );
 };
 
 export default DemandeForm;
+
+
+         
+

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import Demandes from "./pages/Demandes";
 import Stats from "./pages/Stats";
@@ -8,6 +8,7 @@ import Sidebar from "./Components/Sidebar";
 import LoginForm from "./Components/loginform";
 import Navbar from "./Components/NavBar";
 import DemandeForm from "./pages/DemandeForm";
+import Visualization from "./pages/Visualization";
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -30,6 +31,7 @@ const App = () => {
             <Route path="/Demandes" element={<Demandes filter={selectedFilter} />} />
             <Route path="/Stats" element={<Stats />} />
             <Route path="/DemandeForm" element={<DemandeForm />} />
+            <Route path="/Visualization" element={<Visualization />} />
           </Routes>
         </Sidebar>
       ) : (
@@ -40,3 +42,4 @@ const App = () => {
 };
 
 export default App;
+
