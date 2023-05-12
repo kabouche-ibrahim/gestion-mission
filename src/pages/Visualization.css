@@ -1,79 +1,159 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;600;800&family=Roboto:wght@400;700&display=swap');
 *{
     font-family: Roboto;
+    
   }
-  
-  h3 {
-    font-size: 30px;
-    color:blue  ; 
+  body {
+    overflow-x: hidden;
+  }
+  .Visualization {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
   }
   
   .details-container {
-    display: flex;
-    flex-direction: column; 
-    margin-top: 35px;
-  }
-  
-  .missionaire-info {
-    flex-basis: 30%;
-    margin-top: 50px;
-    width: 100%;
-    background-color: #f2f2f1;
-    box-shadow: 2px 2px 5px #888;
-    margin-left: 5px;
-    margin-right: 5px;
-    border-radius: 5px;
+    background-color: white;
+    border-radius: 10px;
     padding: 20px;
-    height: 210px;
-  }
-  
-  .demande-info {
-    flex-basis: 70%;
     margin-top: 30px;
-    width: 100%;
-    background-color: #f2f2f1;
-    box-shadow: 2px 2px 5px #888;
-    border-radius: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
   
-  .demande-info strong,
-  .missionaire-info strong {
+  .info-section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
     font-size: 24px;
-    color: blue;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #FF004F;
   }
   
-  .demande-info p,
-  .missionaire-info p {
-    font-size: 21px;
+  h4 {
+    font-size: 18px;
     font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .info-label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #1651cf;
+  }
+  
+  .user-info h4 {
+    color: #1651cf;
+    margin-top: 10px;
   }
 
-  .back-button {
-    padding: 5px 50px;
-    margin: 5px;
-    border: none;
-    border-radius: 5px;
-    background-color: #2916d8;
-    transition: background 0.5s, transform 0.5s;
-    color: white;
-    cursor: pointer;
-    font-size: 16px;
-    float: right;
-    width: 150px;
+  .sideright {
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 105%;
     position: absolute;
-    top: 60px;
-    right: 20px;
+    top: 130px;
+    right: 30px;
+    width: 260px;
+    clear: right;
   }
+  
+  .info-label-1 {
+    margin-left: 20px;
+    color: #1651cf;
+  }
+
+.btn {
+  background-color: #1651cf;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+}
     
     
-  .back-button:hover {
-      background-color: #5ca1ea;
-      transform: translateY(-10px);
-    }
+.btn:hover {
+  background-color: #0f1ba3;
+}
   
+.btn-a {
+  background-color:  #FF5555;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+      
+      
+.btn-a:hover {
+  background-color: #FF004F;
+}
+
+.btn-v{
+  background-color: #00CC66;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+ }
+        
+        
+.btn-v:hover {
+  background-color: #00E699;
+}
+
+.btn-r{
+  background-color: #FF0000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+ }
+          
+          
+.btn-r:hover {
+  background-color: #FF3333;
+}
+
+.btn-e{
+  background-color: #FF8800 ;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+            
+            
+.btn-e:hover {
+  background-color: #FFAA33;
+ }
   
+
+ .buttons {
+  padding-left: 820px;
+ }
     
    

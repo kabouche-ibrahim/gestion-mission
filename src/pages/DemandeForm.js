@@ -11,9 +11,10 @@ const DemandeForm = () => {
           <label >Type de mission:</label>
           <select className="input" name="mission"  >
             <option value="" className="placeholder">--Choisir une mission--</option>
-            <option value="mission1">Mission 1</option>
-            <option value="mission2">Mission 2</option>
-            <option value="mission3">Mission 3</option>
+            <option value="mission1">Missions d'audit et de contrôle </option>
+            <option value="mission2">Missions d'inspection </option>
+            <option value="mission3">Missions de management </option>
+            <option value="mission4">Missions techniques </option>
           </select>
 
           <label >Motif de déplacement:</label>
@@ -25,10 +26,12 @@ const DemandeForm = () => {
           ></textarea>
 
           <label >Moyen de transport:</label>
-          <select className="input" name="transport"  >
-          <option value="" className="placeholder">--Choisir un moyen de transport--</option>
-            <option value="vehicule">Véhicule</option>
+          <select className="input" name="transport" >
+            <option value="" className="placeholder">--Choisir un moyen de transport--</option>
+            <option value="vehicule">Vehicule privé</option>
             <option value="vehicule-personnel">Véhicule personnel</option>
+            <option value="avion">Avion</option>
+            <option value="train">Train</option>
           </select>
 
           <label >Agence:</label>
