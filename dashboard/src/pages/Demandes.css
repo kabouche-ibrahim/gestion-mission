@@ -4,7 +4,9 @@
 }
 
 .table-container {
-  padding-top: 150px; 
+  padding-top: 150px;
+  padding-left: 30px;
+  padding-right: 0px; 
 }
 .custom-table {
   border-collapse: collapse;
